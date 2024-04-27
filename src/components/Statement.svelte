@@ -8,7 +8,7 @@
   };
 </script>
 
-<p>You have wasted ${convertTime(totalPlaytime)} on games in the last 2 weeks.<br>
+<p>You have wasted {convertTime(totalPlaytime)} on games in the last 2 weeks.<br>
   {#if totalPlaytime > 1680}
       That is {(totalPlaytime/(60*14)).toFixed(1)} hours a day! Shame on you!
   {:else if totalPlaytime > 840}
