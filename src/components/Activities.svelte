@@ -37,7 +37,7 @@
 <style>
   .rating {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     align-content: center;
     justify-content: center;

@@ -6,6 +6,9 @@
 <style>
   nav {
     text-align: center;
+    font-size: 24px;
+    position: absolute;
+    bottom: 50px;
   }
   a::before {
     content: '|';

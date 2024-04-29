@@ -2,6 +2,17 @@
   import Nav from "../../components/Nav.svelte";
 </script>
 
-<Nav></Nav>
+<div class='container'>
+  <h1>SteamShame</h1>
+  <h2>My profile</h2>
+  <Nav></Nav>
+</div>
 
-<h1>Your profile</h1>
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
